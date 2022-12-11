@@ -1,3 +1,4 @@
+package puzzle8;
 
 import puzzle7.Directory;
 import puzzle8.TreeLand;

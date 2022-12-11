@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
-import puzzle3.Rucksack;
 import puzzle4.ElfPair;
+import puzzle4.Puzzle4;
 
 import java.io.File;
 import java.io.FileNotFoundException;

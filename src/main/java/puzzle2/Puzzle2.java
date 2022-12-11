@@ -1,3 +1,5 @@
+package puzzle2;
+
 import puzzle2.RpsChoice;
 import puzzle2.RpsRound;
 import puzzle2.RpsRoundResult;

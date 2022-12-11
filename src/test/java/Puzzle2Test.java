@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import puzzle2.Puzzle2;
 import puzzle2.RpsRound;
 
 import java.io.File;
@@ -34,7 +35,7 @@ class Puzzle2Test {
                 .reduce(Integer::sum)
                 .orElse(0);
         System.out.println(sumPoints);
-        
+
         int expected = 13071;
         assertEquals(expected, sumPoints);
     }

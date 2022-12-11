@@ -1,3 +1,5 @@
+package puzzle4;
+
 import puzzle4.ElfPair;
 
 import java.io.File;

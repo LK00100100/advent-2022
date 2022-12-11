@@ -1,3 +1,5 @@
+package puzzle3;
+
 import puzzle3.Rucksack;
 
 import java.io.File;

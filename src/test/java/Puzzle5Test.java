@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
 import puzzle5.ElfStacks;
+import puzzle5.Puzzle5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,7 +15,7 @@ class Puzzle5Test {
         File inputFile = new File(Objects.requireNonNull(this.getClass().getResource("puzzle5input.txt")).getFile());
         ElfStacks stacks = Puzzle5.readFile(inputFile);
 
-        while(stacks.hasInstruction())
+        while (stacks.hasInstruction())
             stacks.pollAndExecuteOne();
 
         String top = stacks.printTops();
@@ -27,7 +28,7 @@ class Puzzle5Test {
         File inputFile = new File(Objects.requireNonNull(this.getClass().getResource("puzzle5input.txt")).getFile());
         ElfStacks stacks = Puzzle5.readFile(inputFile);
 
-        while(stacks.hasInstruction())
+        while (stacks.hasInstruction())
             stacks.pollAndExecuteMulti();
 
         String top = stacks.printTops();

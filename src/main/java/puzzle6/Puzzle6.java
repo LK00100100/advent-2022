@@ -1,3 +1,5 @@
+package puzzle6;
+
 import puzzle6.ElfSignal;
 
 import java.io.File;

@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import puzzle3.Puzzle3;
 import puzzle3.Rucksack;
 
 import java.io.File;
@@ -31,7 +32,7 @@ class Puzzle3Test {
         List<Rucksack> sacks = Puzzle3.readPuzzleFile(inputFile);
 
         //group of 3 elves. find the one shared char (the elf badge)
-        for(int i = 0; i < sacks.size(); i += 3) {
+        for (int i = 0; i < sacks.size(); i += 3) {
             Set<Character> allChars = sacks.get(i).getAllCharsSet();
             allChars.retainAll(sacks.get(i + 1).getAllCharsSet());
             allChars.retainAll(sacks.get(i + 2).getAllCharsSet());

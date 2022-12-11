@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
 import puzzle6.ElfSignal;
+import puzzle6.Puzzle6;
 
 import java.io.File;
 import java.io.FileNotFoundException;

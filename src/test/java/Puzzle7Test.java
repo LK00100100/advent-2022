@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
 import puzzle7.Directory;
+import puzzle7.Puzzle7;
 
 import java.io.File;
 import java.io.FileNotFoundException;

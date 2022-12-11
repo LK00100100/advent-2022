@@ -1,3 +1,4 @@
+package puzzle7;
 
 import puzzle7.Directory;
 
@@ -74,7 +75,7 @@ public class Puzzle7 {
                             currentDir.fileSizes.put(filename, size);
                         }
 
-                        if(!in.hasNextLine())
+                        if (!in.hasNextLine())
                             break;
 
                         line = in.nextLine();

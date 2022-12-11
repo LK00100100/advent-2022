@@ -1,3 +1,5 @@
+package puzzle5;
+
 import puzzle5.ElfStacks;
 import puzzle5.StackInstruction;
 
@@ -22,12 +24,12 @@ public class Puzzle5 {
             String line = in.nextLine();
 
             //stack line
-            if(line.contains("[")) {
+            if (line.contains("[")) {
                 //start at [
-                for(int i = 0; i < line.length(); i += 4) {
+                for (int i = 0; i < line.length(); i += 4) {
                     char c = line.charAt(i + 1);
 
-                    if(c == ' ')
+                    if (c == ' ')
                         continue;
 
                     int stackNum = i / 4;
@@ -35,7 +37,7 @@ public class Puzzle5 {
                 }
             }
             //instruction
-            else if(line.contains("move")) {
+            else if (line.contains("move")) {
                 String[] tokens = line.split(" ");
                 int moves = Integer.parseInt(tokens[1]);
                 int from = Integer.parseInt(tokens[3]);

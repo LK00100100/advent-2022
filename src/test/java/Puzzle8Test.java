@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import puzzle7.Directory;
+import puzzle8.Puzzle8;
 import puzzle8.TreeLand;
 
 import java.io.File;
