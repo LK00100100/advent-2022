@@ -20,4 +20,17 @@ class Puzzle8Test {
         int expected = 1859;
         assertEquals(expected, countVisibleTrees);
     }
+
+    @Test
+    void solvePart2() throws FileNotFoundException {
+        File inputFile = new File(Objects.requireNonNull(this.getClass().getResource("puzzle8input.txt")).getFile());
+        TreeLand land = Puzzle8.readFile(inputFile);
+
+        int bestScenicScore = land.bestScenicScore();
+
+        System.out.println(bestScenicScore);
+
+        int expected = 332640;
+        assertEquals(expected, bestScenicScore);
+    }
 }
