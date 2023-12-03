@@ -1,7 +1,9 @@
-# advent2022
+# advent-of-code
 by LK00100100
 
-My "Advent of Code 2022" solutions
+My "Advent of Code" solutions for
+- 2022
+- 2023
 
 ## Instructions
 
